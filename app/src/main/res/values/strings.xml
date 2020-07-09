@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">NTUSchedule</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="emptyDatabase">
+        Có vẻ bạn vẫn chưa có thời khoá biểu\n
+        Ấn nút trên bên trái để thêm thời khoá biểu của mình nhé!
+    </string>
+    <string name="EmptyHomework">
+        Hiện tại bạn không có bài tập nào cả\nẤn nút màu xanh để thêm bài tập mới
+    </string>
+    <string name="freeHomework">
+        Chưa có bài tập nào sắp hết hạn cả (dưới 7 ngày)\n
+        Nhưng kiểm tra thường xuyên nhé, deadline sắp đến rồi đó
+    </string>
+    <string name="freeDay">
+        Hôm nay không có tiết học nào\n
+        Nhưng đừng ở nhà, hãy đi tập thể thao rèn luyện sức khoẻ nào
+    </string>
+</resources>

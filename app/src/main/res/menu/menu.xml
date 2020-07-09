@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/nav_schedule"
+            android:icon="@drawable/ic_action_schedule"
+            android:title="Lịch học"/>
+        <item android:id="@+id/nav_timetable"
+            android:icon="@drawable/ic_action_timetable"
+            android:title="Thời khoá biểu"/>
+        <item android:id="@+id/nav_homework"
+            android:icon="@drawable/ic_action_homework"
+            android:title="Bài tập"/>
+    </group>
+
+    <item android:title="Cài đặt"
+        android:icon="@drawable/ic_action_setting">
+        <menu>
+            <item
+                android:id="@+id/nav_noti"
+                android:icon="@drawable/ic_action_noti"
+                android:title="Đặt thông báo" />
+            <item
+                android:id="@+id/nav_clear"
+                android:icon="@drawable/ic_action_clear"
+                android:title="Xoá dữ liệu" />
+        </menu>
+    </item>
+</menu>
