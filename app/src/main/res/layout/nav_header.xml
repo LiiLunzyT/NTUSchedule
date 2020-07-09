@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="176dp"
     android:background="@color/colorAccent"
-    android:gravity="bottom"
-    android:padding="16dp"
-    android:theme="@style/ThemeOverlay.AppCompat.Dark"
+    android:orientation="vertical"
+    android:theme="@style/ThemeOverlay.AppCompat.Dark">
 
-    android:orientation="vertical">
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scaleType="center"
+        android:src="@drawable/bg"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:padding="10dp"
+        android:outlineAmbientShadowColor="#000000"
+        android:layout_gravity="bottom"
         android:text="Tác giả: Võ Thành Luân"
-        android:textAppearance="@style/TextAppearance.AppCompat.Body1"
-        />
-</LinearLayout>
+        android:textAppearance="@style/TextAppearance.AppCompat.Body1" />
+</FrameLayout>
